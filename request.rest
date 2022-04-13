@@ -1,0 +1,30 @@
+GET http://localhost:3005/pokemon/by/400
+
+
+###
+
+GET http://localhost:3005/pokemon/family/98
+
+###
+
+GET http://localhost:3005/pokemon/generation/3
+
+
+###
+
+GET http://localhost:3005/pokemon/all/1/5
+
+###
+
+GET http://localhost:3005/pokemon/info/200
+
+###
+
+GET http://localhost:3005/pokemon/name
+Content-Type: application/json
+
+{
+    "name": "Deoxys Attack"
+}
+
+
